@@ -49,7 +49,7 @@
 			@media screen and (max-width: 600px){
 				display: none;
 			}
-			span{
+			span, .date, .tags {
 				margin-right: 30px;
 				@include inline-block;
 				&:before{
